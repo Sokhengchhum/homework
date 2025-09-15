@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Header Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: #e63946;
+      color: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffd166;
+      border-bottom: 2px solid #ffd166;
+    }
+
+    /* Main content */
+    main {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Section */
+    section {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #e63946;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #ffd166;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+      /* About content */
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      max-width: 1000px;
+      margin: 50px auto;
+      gap: 40px;
+      padding: 20px;
+    }
+
+    .about-text {
+      flex: 1 1 400px;
+    }
+
+    .about-text h2 {
+      margin-bottom: 15px;
+    }
+
+    .about-text p {
+      line-height: 1.6;
+      color: #555;
+    }
+     /* Contact section */
+    main {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    main p {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      text-align: left;
+    }
+
+    label {
+      font-weight: 600;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      background: #e63946;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #d62828;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #e63946;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #ffd166;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <img class="logo" src="../images/logobook.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main>
+    <h1>Reading Book</h1>
+    <p class="tagline">Reading and learning is the best way to success.</p>
+    
+    <div class="gallery">
+      <img src="../images/book.png" alt="Book 1">
+      <img src="../images/book1.png" alt="Book 2">
+      <img src="../images/book2.png" alt="Book 3">
+      <img src="../images/book3.png" alt="Book 4">
+    </div>
+  </main>
+
+   <!-- about -->
+  <section class="hero">
+    <h1>About Us</h1>
+    <p>We are passionate about reading, learning, and sharing knowledge to inspire success for everyone who loves books.</p>
+  </section>
+
+  <!-- about section -->
+  <section class="about-section">
+    <div class="about-text">
+      <p>Our team is dedicated to making reading enjoyable and accessible. 
+         We believe that books are powerful tools to open new worlds, ideas, and opportunities. 
+         From timeless classics to modern knowledge, we provide resources to help readers grow.</p>
+    </div>
+   
+  </section>
+
+ <!-- contact -->
+    <main>
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Fill out the form below or reach us through email and phone.</p>
+
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2025 My Website</p>
+    <address>
+      <a href="mailto:kimchana@gmail.com">kimchana@gmail.com</a> | 
+      <a href="tel:099888777">099 888 777</a>
+    </address>
+  </footer>
+</body>
+</html>

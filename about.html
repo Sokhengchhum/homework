@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: #e63946;
+      color: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffd166;
+      border-bottom: 2px solid #ffd166;
+    }
+
+    /* Hero section */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #fceaea;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* About content */
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      max-width: 1000px;
+      margin: 50px auto;
+      gap: 40px;
+      padding: 20px;
+    }
+
+    .about-text {
+      flex: 1 1 400px;
+    }
+
+    .about-text h2 {
+      margin-bottom: 15px;
+    }
+
+    .about-text p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+  
+    /* Footer */
+    footer {
+      background-color: #e63946;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #ffd166;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <img class="logo" src="../images/logobook.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <section class="hero">
+    <h1>About Us</h1>
+    <p>We are passionate about reading, learning, and sharing knowledge to inspire success for everyone who loves books.</p>
+  </section>
+
+  <!-- about section -->
+  <section class="about-section">
+    <div class="about-text">
+      <h2>Who We Are</h2>
+      <p>Our team is dedicated to making reading enjoyable and accessible. 
+         We believe that books are powerful tools to open new worlds, ideas, and opportunities. 
+         From timeless classics to modern knowledge, we provide resources to help readers grow.</p>
+    </div>
+   
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2025 My Website</p>
+    <address>
+      <a href="mailto:kimchana@gmail.com">kimchana@gmail.com</a> | 
+      <a href="tel:099888777">099 888 777</a>
+    </address>
+  </footer>
+</body>
+</html>
